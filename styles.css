@@ -1,0 +1,68 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+.nepal_images{
+    display: flex;
+    gap: 10px;    
+    justify-content: justify;
+    height: auto;
+    padding : 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+p{
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: lighter;
+    opacity: 0.8;
+
+}
+.dominica_images{
+    display: flex;
+    gap: 10px;    
+    justify-content: justify;
+    height: auto;
+    padding : 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.cinque_terre_images{
+    display: flex;
+    gap: 10px;    
+    justify-content: justify;
+    height: auto;
+    padding : 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.new_zealand_images{
+    display: flex;
+    gap: 10px;    
+    justify-content: justify;
+    height: auto;
+    padding : 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.newfoundland_images{
+    display: flex;
+    gap: 10px;    
+    justify-content: justify;
+    height: auto;
+    padding : 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+ 
+

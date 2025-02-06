@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream vacation zones</title>
     <link rel="icon" href="images/chile.jpg">
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>These are my top 5 dream vacation zones</h1>
+    <h1 >These are my top 5 dream vacation zones</h1>
     <div class="vacation">
         <h2>Nepal</h2>
         <p>Known for the majestic Himalayas, Nepal offers breathtaking landscapes and cultural heritage.</p>
-        <ul>
+        <ul slot="">
             <li>Hike to Everest Base Camp</li>
             <li>Explore Kathmandu’s temples</li>
             <li>Visit Chitwan National Park</li>
@@ -20,7 +20,7 @@
             <li>Go white-water rafting</li>
         </ul>
         </div>
-        <div>
+        <div class="nepal_images">
          <figure>
             <img src="images/nepal.jpg" alt="stunning" width="300px">
             <figcaption>
@@ -46,14 +46,14 @@
             </figcaption>
         </figure>   
         <figure>
-            <img src="images/heron-7671357_640.jpg" alt="stunning" width="300px">
+            <img src="images/heron-7671357_640.jpg" alt="stunning" height="200px">
             <figcaption>
                 Tricolored Heron (Egretta tricolor) in Nepal Mountains
             </figcaption>
         </figure>  
         </div>    
 
-    <div class="vacation">
+    <div class="Cinque Terre, Italy">
         <h2>Cinque Terre, Italy</h2>
         <p>A picturesque coastal region known for its colorful villages and stunning sea views.</p>
         <ul>
@@ -64,7 +64,7 @@
             <li>Enjoy sunset boat tours</li>
         </ul>
 
-        <div>
+        <div class="cinque_terre_images">
         <figure>
             <img src="images/kurt-cotoaga-vmra8DWORZc-unsplash.jpg" alt="Colorful village in Cinque Terre" width="300px">
             <figcaption>
@@ -110,7 +110,7 @@
             <li>See glowworm caves</li>
             <li>Experience Maori culture</li>
         </ul>
-        <div>
+        <div class="new_zealand_images">
         <figure>
             <img src="images/pexels-abbas-mohammed-1990079-3680912.jpg" alt="Landscape in South Island, New Zealand" width="300px">
             <figcaption>
@@ -138,7 +138,7 @@
             </figcaption>
         </figure>   
         <figure>
-            <img src="images/pexels-fabio2311-712395.jpg" alt="image of the sun rising" width="300px">
+            <img src="images/pexels-fabio2311-712395.jpg" alt="image of the sun rising" height="200px">
             <figcaption>
                 Sunrise 
             </figcaption>
@@ -146,7 +146,7 @@
         </div>      
     </div>
     
-    <div class="vacation">
+    <div class="Iceberg Alley, Newfoundland">
         <h2>Iceberg Alley, Newfoundland</h2>
         <p>A unique destination where you can witness massive icebergs floating by.</p>
         <ul>
@@ -156,9 +156,9 @@
             <li>Explore local fishing villages</li>
             <li>Enjoy fresh seafood</li>
         </ul>
-        <div>
+        <div class="newfoundland_images">
         <figure>
-            <img src="images/pexels-ivan-siarbolin-1513699-3787840.jpg" alt="Icebergs in Newfoundland" width="300px">
+            <img src="images/pexels-ivan-siarbolin-1513699-3787840.jpg" alt="Icebergs in Newfoundland" height="200px">
             <figcaption>
                 Beautifull city of Newfoundland
             </figcaption>
@@ -191,7 +191,7 @@
        </div>    
     </div>
     
-    <div class="vacation">
+    <div class="Dominica">
         <h2>Dominica</h2>
         <p>Known as the “Nature Island,” Dominica is a paradise for outdoor lovers.</p>
         <ul>
@@ -201,9 +201,9 @@
             <li>Visit the Kalinago Territory</li>
             <li>Relax on black sand beaches</li>
         </ul>
-        <div>
+        <div class="dominica_images">
        <figure>
-        <img src="images/dominica-2042783_640.jpg" alt="Tropical scenery in Dominica" width="300px">
+        <img src="images/dominica-2042783_640.jpg" alt="Tropical scenery in Dominica" height="300px">
         <figcaption>
             Lush tropical forests and waterfalls in Dominica
         </figcaption>
@@ -237,6 +237,10 @@
     <div>
 
         <form action="">
+           <fieldset>
+            <legend>
+                <h2>Subscribe to our newsletter</h2>
+            </legend>
             <div>
                 <label for="fname">Firstname:</label>
                 <input type="text" name="name" id="fname" placeholder="Input your firstname">
@@ -253,8 +257,9 @@
             </div>
             <br>
             <div>
-                <input type="submit">
+                <input type="submit" style="background-color: green;">
             </div>
+           </fieldset>
         </form>
     </div>
   
